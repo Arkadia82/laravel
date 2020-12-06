@@ -1,0 +1,26 @@
+{
+    "name": "Arkadia82/laravel",
+    "description": "Laravel Utilities",
+    "keywords": ["laravel", "generator", "model", "utilities"],
+    "require": {
+        "Arkadia82/laravel": "*"
+    },
+    "authors": [
+        {
+            "name": "Jordi Martínez",
+            "email": "jomasi1982@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Laravel\\Utilities\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arkadia82\\Laravel\\Utilities\\LaravelUtilities"
+            ]
+        }
+    }
+}
