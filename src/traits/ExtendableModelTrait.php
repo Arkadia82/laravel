@@ -5,7 +5,7 @@
  * Email: jomasi1982@gmail.com
  */
 
-namespace Arkadia82\Laravel\Traits;
+namespace Arkadia\Laravel\Traits;
 
 use BadMethodCallException;
 use Closure;

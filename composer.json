@@ -1,5 +1,5 @@
 {
-    "name": "arkadia82/laravel",
+    "name": "Arkadia82/laravel",
     "description": "Laravel Utilities",
     "keywords": ["laravel", "generator", "model", "utilities"],
     "require": {
@@ -13,13 +13,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "Arkadia82\\Laravel\\": "src/"
+            "Arkadia\\Laravel\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Arkadia82\\Laravel\\Providers\\GeneratorServiceProvider"
+                "Arkadia\\Laravel\\Providers\\GeneratorServiceProvider"
             ]
         }
     }

@@ -5,10 +5,10 @@
  * Email: jomasi1982@gmail.com
  */
 
-namespace Arkadia82\Laravel\Providers;
+namespace Arkadia\Laravel\Providers;
 
-use Arkadia82\Laravel\Commands\GenerateModelCommand;
-use Arkadia82\Laravel\Validators\UniqueValidator;
+use Arkadia\Laravel\Commands\GenerateModelCommand;
+use Arkadia\Laravel\Validators\UniqueValidator;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\ServiceProvider;
 

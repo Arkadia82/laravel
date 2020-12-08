@@ -5,7 +5,7 @@
  * Email: jomasi1982@gmail.com
  */
 
-namespace Arkadia82\Laravel\Rules;
+namespace Arkadia\Laravel\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Support\Facades\Validator;

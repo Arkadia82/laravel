@@ -8,7 +8,7 @@
  * This command is based on laracademy/generators
  */
 
-namespace Arkadia82\Laravel\Commands;
+namespace Arkadia\Laravel\Commands;
 
 use Illuminate\Support\Str;
 use Laracademy\Generators\Commands\ModelFromTableCommand;
@@ -16,10 +16,10 @@ use Illuminate\Support\Facades\Schema;
 
 class GenerateModelCommand extends ModelFromTableCommand
 {
-    protected $signature = 'Arkadia82:modelfromtable
+    protected $signature = 'Arkadia:modelfromtable
                             {--name= : Model name. If set, only 1 table is required in --table }
                             {--table= : a single table or a list of tables separated by a comma (,)}
-                            {--base= : Base model name. Default Arkadia82\Laravel\Models\BaseModel }
+                            {--base= : Base model name. Default Arkadia\Laravel\Models\BaseModel }
                             {--prefix= : Table prefix }
                             {--connection= : database connection to use, leave off and it will use the .env connection}
                             {--debug : turns on debugging}
@@ -397,7 +397,7 @@ class GenerateModelCommand extends ModelFromTableCommand
             return '"'.$rules.'"';
         }
         else {
-            return "[ '".str_replace('|', "', '", $rules)."', new \Arkadia82\Laravel\Rules\UniqueModel(\$this) ]";
+            return "[ '".str_replace('|', "', '", $rules)."', new \Arkadia\Laravel\Rules\UniqueModel(\$this) ]";
         }
     }
 

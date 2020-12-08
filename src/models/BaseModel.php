@@ -5,15 +5,15 @@
  * Email: jomasi1982@gmail.com
  */
 
-namespace Arkadia82\Laravel\Models;
+namespace Arkadia\Laravel\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Validator;
-use Arkadia82\Laravel\Traits\ExtendableModelTrait;
+use Arkadia\Laravel\Traits\ExtendableModelTrait;
 
 /**
  * Class BaseModel
- * @package Arkadia82\Laravel\Models
+ * @package Arkadia\Laravel\Models
  */
 class BaseModel extends Model
 {
