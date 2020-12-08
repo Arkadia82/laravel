@@ -1,9 +1,9 @@
 {
-    "name": "Arkadia82/laravel",
+    "name": "arkadia82/laravel",
     "description": "Laravel Utilities",
     "keywords": ["laravel", "generator", "model", "utilities"],
     "require": {
-        "arkadia82/laravel": "*"
+        "laracademy/generators": "^1.3"
     },
     "authors": [
         {
