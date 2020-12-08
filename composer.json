@@ -3,7 +3,7 @@
     "description": "Laravel Utilities",
     "keywords": ["laravel", "generator", "model", "utilities"],
     "require": {
-        "Arkadia82/laravel": "*"
+        "arkadia82/laravel": "*"
     },
     "authors": [
         {
@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Laravel\\Utilities\\": "src/"
+            "Arkadia82\\Laravel\\": "src/"
         }
     },
     "extra": {
