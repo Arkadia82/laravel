@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Arkadia82\\Laravel\\Utilities\\LaravelUtilities"
+                "Arkadia82\\Laravel\\Providers\\GeneratorServiceProvider"
             ]
         }
     }
