@@ -41,7 +41,7 @@ class GenerateModelCommand extends ModelFromTableCommand
      *
      * @return void
      */
-    public function __construct()mado monogatari
+    public function __construct()
     {
         parent::__construct();
 
